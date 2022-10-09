@@ -111,11 +111,12 @@ li {
   border-radius: 25px;
 }
 .task-box .task {
+  display: flex;
+  align-items: center;
   list-style: none;
   font-size: 17px;
   margin-bottom: 18px;
   padding-bottom: 16px;
-  align-items: flex-start;
   border-bottom: 1px solid #ccc;
 }
 .task-box .task:last-child {
@@ -132,7 +133,7 @@ li {
 }
 .task label p {
   user-select: none;
-  margin-left: 12px;
+  margin: 0 12px;
   word-wrap: break-word;
 }
 .task label p.checked {
